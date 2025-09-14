@@ -11,7 +11,7 @@ public class ProductController {
     private ProductService service;
 
     @Autowired
-    private productRepository repository;
+    private ProductRepository repository;
 
     @PostMapping("/add")
     public Product addProduct(@RequestBody Product product) {
