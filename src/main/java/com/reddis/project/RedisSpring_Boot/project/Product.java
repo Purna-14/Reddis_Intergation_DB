@@ -5,6 +5,7 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Product {
+    private static final long serialVersionUID = 1L;
     @Id
     private Long id;
     private String name;
